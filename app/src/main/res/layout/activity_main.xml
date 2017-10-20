@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.soyeon.week1_hw2.MainActivity">
+
+    <EditText
+        android:id="@+id/etText1"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+    <Button
+        android:id="@+id/main1_btn1"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:text="다음 화면으로"
+        android:textAllCaps="false"
+        android:layout_below="@+id/etText1"
+        android:layout_centerHorizontal="true"
+        />
+</RelativeLayout>
